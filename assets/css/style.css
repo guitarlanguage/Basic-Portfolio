@@ -6,11 +6,14 @@
 body {
 	background-color: grey;
 }
+
 .container {
   max-width: 960px;
 	background-color: lightblue;
 	border: solid black 2px;
-	margin:0 auto;
+	margin-top: 20px;
+	margin: 0 auto;
+
 }
 
 header {
@@ -22,7 +25,7 @@ header {
   width: 100%;
 	overflow: hidden;
 	height: .2;
-
+	margin-bottom: 35px;
 }
 
 .mainLogo {
@@ -41,7 +44,6 @@ nav {
     overflow:hidden;
     text-align: right;
 		float: right;
-
 }
 
 nav ul {
@@ -60,5 +62,18 @@ nav ul li a {
     line-height: 2em;
     padding: 0.5em 1em;
     text-decoration: none;
+}
+
+.mainContent {
+	width: 650px;
+	border: 3px solid green;
+	float: left;
+
+}
+
+.sideBar {
+	width: 270px;
+	border: 3px solid blue;
+	float: right;
 
 }
