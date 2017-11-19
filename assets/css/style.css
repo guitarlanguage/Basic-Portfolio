@@ -23,7 +23,7 @@ header {
 
   position: relative;
 	background-color: green;
-	border: 2px solid black;
+	border-bottom: 2px solid black;
   color: #333;
   width: 100%;
 	overflow: hidden;
@@ -83,7 +83,16 @@ nav ul li a {
 	border: 3px solid green;
 	float: left;
 
+}
 
+.mainContent article {
+  float: left;
+  height: 300px;
+  width: 85%;
+  height: auto;
+  margin-left: 40px;
+  position: relative;
+  border-top: 2px solid black;
 }
 
 .mainContent h1 {
@@ -95,19 +104,28 @@ nav ul li a {
 
 .mainContent img {
 	float: left;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
   margin-right: 20px;
+  margin-top: 25px;
 }
 
 .mainContent p {
 	text-align: left;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
+  margin-top: 25px;
 }
 .sideBar {
 	width: 270px;
 	border: 3px solid blue;
 	float: right;
 
+}
+
+.sideBar article {
+  float: right;
+  height: 300px;
+  width: 270px;
+  border: 2px solid black;
 }
 
 footer {
