@@ -4,12 +4,15 @@
 }
 
 body {
-	background-color: grey;
+
+	background-image: url("assets/images/doodles.png");
+	background: cover;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .container {
   max-width: 960px;
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 	border: solid black 2px;
 	margin-top: 20px;
 	margin: 0 auto;
@@ -28,17 +31,20 @@ header {
 	margin-bottom: 35px;
 }
 
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .contentStructure {
 	max-width: 960px;
-
 	margin: 0 auto;
 }
 
 .mainLogo {
 		position: relative;
 		float: left;
-    margin: 10px 15px 30px 10px;
-    background-color: lightblue;
+    /*margin: 10px 15px 30px 10px;*/
+    background-color: lightgreen;
     color: white;
     width: 30%;
 		text-align: left;
@@ -46,11 +52,12 @@ header {
 
 nav {
     background-color: lightblue;
-    margin-top: 30px;
+    margin-top: 15px;
 		width: 35%;
     overflow:hidden;
     text-align: right;
 		float: right;
+    height: 100%;
 }
 
 nav ul {
@@ -76,6 +83,7 @@ nav ul li a {
 	border: 3px solid green;
 	float: left;
 
+
 }
 
 .mainContent h1 {
@@ -87,6 +95,12 @@ nav ul li a {
 
 .mainContent img {
 	float: left;
+	margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mainContent p {
+	text-align: left;
 	margin-left: 20px;
 }
 .sideBar {
