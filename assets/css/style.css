@@ -1,0 +1,45 @@
+
+.container {
+  /*max-width:940px;*/
+}
+
+header {
+	padding-top: 50px;
+    position: relative;
+    height: 1.25;
+	background-color: green;
+	border: 2px solid black;
+}
+
+.yourName {
+	position: relative;
+    margin: 10px 15px 15px 10px;
+    background-color: purple;
+    color: white;
+    width: 20%;
+}
+
+nav {
+
+	text-align: center;
+    /*background-color: lightblue;*/
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+	
+}
+
+nav ul li {
+	display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+	display: inline-block;
+	text-align: right;
+
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+
+}
