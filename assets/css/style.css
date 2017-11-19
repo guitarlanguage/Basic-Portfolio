@@ -28,6 +28,12 @@ header {
 	margin-bottom: 35px;
 }
 
+.contentStructure {
+	max-width: 960px;
+
+	margin: 0 auto;
+}
+
 .mainLogo {
 		position: relative;
 		float: left;
@@ -35,6 +41,7 @@ header {
     background-color: lightblue;
     color: white;
     width: 30%;
+		text-align: left;
 }
 
 nav {
@@ -71,9 +78,30 @@ nav ul li a {
 
 }
 
+.mainContent h1 {
+	text-align: left;
+	margin-left: 20px;
+	border-bottom-color: orange;
+	z-index: 4;
+}
+
+.mainContent img {
+	float: left;
+	margin-left: 20px;
+}
 .sideBar {
 	width: 270px;
 	border: 3px solid blue;
 	float: right;
 
+}
+
+footer {
+	position: relative;
+	background-color: turquoise;
+	border: 2px solid black;
+  color: #333;
+  width: 100%;
+	overflow: hidden;
+	height: .2;
 }
