@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -10,15 +11,15 @@
 <!-- ___This will be the top bar going across the length of the page_with mainLogo(your name)
 on the left and right side navigation_______________________________________--->
 		<header>
-		<div class="contentStructure">
-			<div class= "mainLogo">
+		<div class="contentStructure clearfix">
+			<div class= "mainLogo clearfix">
 
 				<h1>Tom LaChance</h1>
 			</div>
 
 			<nav>
 				<ul>
-					<li><a href="index.html">About</a></li>
+						<li><a href="index.html">About</a></li>
   					<li><a href="portfolio.html">Portfolio</a></li>
   					<li class="contactLeft"><a href="contact.html">Contact</a></li>
 				</ul>
@@ -30,19 +31,20 @@ on the left and right side navigation_______________________________________--->
 
 <!--    This will be content container of 960x(included will be the
 left-side mainContent and the right side "sideBar")________________________-->
-		<div class="container">
+		<div class="container clearfix">
 
 <!--_______mainContent on the left side__________________________-->
-			<section class="mainContent">
+			<section class="mainContent clearfix">
 
-				<h1>About Me</h1>
+				<h2>About Me</h2>
 				<article>
-				<img id="bio-image" src="https://blog.addthiscdn.com/wp-content/uploads/2016/03/01125908/200-200-pixels.png" alt="200px box">
+				<!--<img src="https://blog.addthiscdn.com/wp-content/uploads/2016/03/01125908/200-200-pixels.png" >-->
+				<img src="assets/images/IMG_NW_Bio.png">
 
-				<p>I play and teach the guitar.  I also like to create.</p>
-				<p>You can find my <a href="#">Guitar Language Series</a> on youtube.  Also, I enjoy playing hockey
+				<p>I play and teach the guitar.  I also like to create. </p>
+				<p>You can find my <a href="https://guitarlanguage.github.io/" target="_blank">Guitar Language Series</a> on youtube.  Also, I enjoy playing hockey
 				and hanging out with friends.</p>
-				<p><a href="#">Back in 2010, I was the Illinois Barrel Jumping Champion.</a>  In 2004, I played one season of
+				<p><a href="https://cdn.patch.com/users/204114/2011/02/353fb0462ceba1727633ca360ca475b5.mp4" target="_blank">Back in 2010, I was the Illinois Barrel Jumping Champion.</a>  In 2004, I played one season of
 				junior hockey for the Columbus Stars.  Originally drafted by Peoria, I was traded for a puck bag and
 			a box of nabisco crackers.</p>
 			<p> Alot of my physical endeavors have been on a six month hiatus due to injury.  (I fell off my bike and fractured my elbow in June of 2017)
@@ -54,27 +56,26 @@ left-side mainContent and the right side "sideBar")________________________-->
 
 <!--This will be the right sideBar "Connect With Me" with the social networking icons____
 ______________Still a work in progress_______________________________-->
-		<section class="sideBar">
+		<section class="sideBar clearfix">
 			<h3>Connect With Me</h3>
 
+			<article>
+				<a href="https://github.com/guitarlanguage" target="_blank"><img src="assets/images/64x64/if_github_square_black_107109.png"></a>
+				<a href="https://www.linkedin.com/in/thomas-lachance-2287a917/" target="_blank"><img src="assets/images/64x64/if_linkedin_square_color_107091.png"></a>
+				<a href="https://stackoverflow.com/users/7602151/tom-lachance" target="_blank"><img src="assets/images/64x64/if_overflow_334695.png"></a>
 
-
-		<article>
-			<img src="assets/images/64x64/if_github_square_black_107109.png">
-			<img src="assets/images/64x64/if_linkedin_square_color_107091.png">
-			<img class="difficultStackOverflow" src="assets/images/64x64/if_overflow_334695.svg">
-
-		</article>
+			</article>
 
 		</section>
 <!--______________________________________________________-->
+
+
 </div>
-		<footer>
-			<p>copyright@ 2017 Tom LaChance</p>
 
-		</footer>
+<footer class="clearfix">
+	<p>@ copyright 2017 Tom LaChance</p>
 
-
+</footer>
 
 </body>
 </html>
