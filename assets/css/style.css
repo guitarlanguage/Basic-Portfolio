@@ -102,9 +102,7 @@ nav ul li a {
 
 }
 
-article {
-  bottom-margin: 40px;
-}
+
 
 .mainContent {
 	width: 650px;
@@ -115,19 +113,11 @@ article {
 
 }
 
-
-
-.mainContent article {
-  float: left;
-  height: 300px;
-  width: 85%;
-  height: auto;
-  margin-left: 40px;
-  position: relative;
-  border-top: 2px solid #dddddd;
+article {
+  bottom-margin: 40px;
 }
 
-.form {
+.mainContent form {
   float: left;
   height: 300px;
   width: 85%;
@@ -138,14 +128,18 @@ article {
   position: relative;
   border-top: 2px solid #dddddd;
   padding-top: 25px;
+  color: #777777;
 }
 
-
-textarea {
-    overflow: auto;
-    float: left;
-    margin-left: 40px;
-
+.mainContent article {
+  float: left;
+  height: 300px;
+  width: 85%;
+  height: auto;
+  margin-left: 40px;
+  position: relative;
+  border-top: 2px solid #dddddd;
+}
 
 .mainContent h2 {
 	text-align: left;
@@ -167,6 +161,7 @@ textarea {
 	text-align: left;
 	/*margin-left: 20px;*/
   margin-top: 25px;
+  color: #777777;
 }
 
 .sideBar {
