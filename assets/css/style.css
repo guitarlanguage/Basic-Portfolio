@@ -123,10 +123,10 @@ article {
   width: 85%;
   height: auto;
   text-align: left;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   /*margin-top: 85px;*/
   position: relative;
-  border-top: 2px solid #dddddd;
+  /*border-top: 2px solid #dddddd;*/
   padding-top: 25px;
   color: #777777;
 }
