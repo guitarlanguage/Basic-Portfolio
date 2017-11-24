@@ -115,6 +115,18 @@ article {
 
 }
 
+
+
+.mainContent article {
+  float: left;
+  height: 300px;
+  width: 85%;
+  height: auto;
+  margin-left: 40px;
+  position: relative;
+  border-top: 2px solid #dddddd;
+}
+
 .form {
   float: left;
   height: 300px;
@@ -128,15 +140,12 @@ article {
   padding-top: 25px;
 }
 
-.mainContent article {
-  float: left;
-  height: 300px;
-  width: 85%;
-  height: auto;
-  margin-left: 40px;
-  position: relative;
-  border-top: 2px solid #dddddd;
-}
+
+textarea {
+    overflow: auto;
+    float: left;
+    margin-left: 40px;
+
 
 .mainContent h2 {
 	text-align: left;
