@@ -174,11 +174,33 @@ article {
   position: relative;
 }
 
-.mainContent img {
+.mainContentimg {
 	float: left;
 	/*margin-left: 20px;*/
   margin-right: 20px;
   margin-top: 25px;
+}
+
+.portfolioPics {
+  width: 100%;
+  /*background-color: lightblue;*/
+}
+
+.portfolioPicsRight {
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.portfolioPicsleft {
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+
 }
 
 .mainContent p {
